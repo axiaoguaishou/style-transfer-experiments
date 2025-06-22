@@ -1,7 +1,7 @@
 
 # 基于 PyTorch 的图像风格迁移复现项目
 
-本项目基于 GitHub 项目 [ProGamerGov/neural-style-pt](https://github.com/ProGamerGov/neural-style-pt) 进行深度复现与扩展，使用 PyTorch 实现图像风格迁移，支持 **不同初始化方式**、**多种 CNN 模型（VGG19/VGG16/NIN）**、**不同内容与风格权重参数** 组合对比实验，具备可视化损失曲线与 SSIM 评价能力，适用于人工智能课程设计与生成式图像理解研究。
+本项目基于 GitHub 项目 [ProGamerGov/neural-style-pt](https://github.com/ProGamerGov/neural-style-pt) 进行深度复现与扩展，使用 PyTorch 实现图像风格迁移，支持**不同初始化方式**、**多种 CNN 模型（VGG19/VGG16/NIN）**、**不同内容与风格权重参数**组合对比实验，具备**可视化损失曲线**与**SSIM评价**能力，适用于人工智能课程设计与生成式图像理解研究。
 
 ##  项目结构说明
 
