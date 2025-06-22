@@ -41,7 +41,7 @@ conda install -c conda-forge scikit-image
 
 ## 模型文件准备
 
-在 `models/` 目录下放置以下的三个模型文件，同时也有一个下载该模型文件的程序 `models\download_models.py`，里面的 `project_dir` 需要改成自己存放这个项目的路径。
+在 `models/` 目录下放置以下的三个模型文件，需要通过运行该目录下的程序 `models\download_models.py` 来下载三个模型文件，可以根据需要只下载其中一个，包含了 VGG-19，VGG-16，NIN，里面的 `project_dir` 需要改成自己存放这个项目的路径。
 
 - `vgg19-d01eb7cb.pth`
 - `vgg16-00b39a1b.pth`
