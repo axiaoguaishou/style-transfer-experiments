@@ -6,7 +6,7 @@
 ##  项目结构说明
 
 ```
-neural-style-pt/
+style-transfer-experiments/
 │
 ├── neural_style.py                      # 主风格迁移程序
 ├── CaffeLoader.py                       # 模型加载器
@@ -52,7 +52,7 @@ conda install -c conda-forge scikit-image
 
 ```bash
 conda activate nst_gpu
-cd F:\学习\人工智能\课程论文\代码\neural-style-pt
+cd F:\学习\人工智能\课程论文\代码\style-transfer-experiments
 
 python neural_style.py -content_image images/content/c3.jpg -style_image images/styles/s5.jpg -output_image images/results/r1.png -init image -init_image images/content/c3.jpg -style_weight 2e2 -content_weight 5e0 -tv_weight 0 -original_colors 1 
 ```
