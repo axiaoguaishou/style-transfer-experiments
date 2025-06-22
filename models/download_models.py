@@ -5,7 +5,7 @@ from sys import version_info
 from collections import OrderedDict
 from torch.utils.model_zoo import load_url
 
-project_dir = r"F:\学习\人工智能\课程论文\代码\neural-style-pt"
+project_dir = r"F:\学习\人工智能\课程论文\代码\style-transfer-experiments"
 models_dir = os.path.join(project_dir, "models")
 
 # Download the VGG-19 model and fix the layer names
